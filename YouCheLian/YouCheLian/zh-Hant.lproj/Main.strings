@@ -1,0 +1,69 @@
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "0G6-L0-Wq4"; */
+"0G6-L0-Wq4.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; placeholder = "请确认新的密码"; ObjectID = "43A-GF-gnZ"; */
+"43A-GF-gnZ.placeholder" = "请确认新的密码";
+
+/* Class = "UITextField"; placeholder = "你的昵称"; ObjectID = "5Wm-ZE-7uM"; */
+"5Wm-ZE-7uM.placeholder" = "你的昵称";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "6IY-O8-Oco"; */
+"6IY-O8-Oco.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "女"; ObjectID = "86G-LB-Inl"; */
+"86G-LB-Inl.text" = "女";
+
+/* Class = "UITextField"; placeholder = "请输入新的手机号码"; ObjectID = "DlQ-AX-6fD"; */
+"DlQ-AX-6fD.placeholder" = "请输入新的手机号码";
+
+/* Class = "UITextField"; placeholder = "请输入你的验证码"; ObjectID = "GSb-Wj-I0d"; */
+"GSb-Wj-I0d.placeholder" = "请输入你的验证码";
+
+/* Class = "UITextField"; placeholder = "请输入新密码"; ObjectID = "HLa-f0-lQA"; */
+"HLa-f0-lQA.placeholder" = "请输入新密码";
+
+/* Class = "UILabel"; text = "个性签名:"; ObjectID = "IBR-lH-Qc6"; */
+"IBR-lH-Qc6.text" = "个性签名:";
+
+/* Class = "UILabel"; text = "性别:"; ObjectID = "KZh-B1-Tnh"; */
+"KZh-B1-Tnh.text" = "性别:";
+
+/* Class = "UIButton"; normalTitle = "确 认"; ObjectID = "UGK-cb-eUB"; */
+"UGK-cb-eUB.normalTitle" = "确 认";
+
+/* Class = "UIButton"; normalTitle = "保 存"; ObjectID = "WKF-Sa-uOi"; */
+"WKF-Sa-uOi.normalTitle" = "保 存";
+
+/* Class = "UITextField"; placeholder = "请输入旧密码"; ObjectID = "XG2-gz-ne5"; */
+"XG2-gz-ne5.placeholder" = "请输入旧密码";
+
+/* Class = "UITextField"; placeholder = "请再次输入新密码"; ObjectID = "Z61-ZO-crA"; */
+"Z61-ZO-crA.placeholder" = "请再次输入新密码";
+
+/* Class = "UITextField"; placeholder = "请输入原始手机号码"; ObjectID = "Zql-4Q-ekl"; */
+"Zql-4Q-ekl.placeholder" = "请输入原始手机号码";
+
+/* Class = "UILabel"; text = "男"; ObjectID = "a5J-PF-S2c"; */
+"a5J-PF-S2c.text" = "男";
+
+/* Class = "UIButton"; normalTitle = "确 认"; ObjectID = "ayR-6O-vUe"; */
+"ayR-6O-vUe.normalTitle" = "确 认";
+
+/* Class = "UILabel"; text = "昵称:"; ObjectID = "bY1-Ua-YMQ"; */
+"bY1-Ua-YMQ.text" = "昵称:";
+
+/* Class = "UITextField"; placeholder = "请输入您的手机号码"; ObjectID = "bm0-Do-nA4"; */
+"bm0-Do-nA4.placeholder" = "请输入您的手机号码";
+
+/* Class = "UITextField"; placeholder = "请输入新的密码"; ObjectID = "kka-J5-Nu1"; */
+"kka-J5-Nu1.placeholder" = "请输入新的密码";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "m8l-ba-BZX"; */
+"m8l-ba-BZX.normalTitle" = "获取验证码";
+
+/* Class = "UITextField"; placeholder = "请输入您的验证码"; ObjectID = "wqq-xH-VcT"; */
+"wqq-xH-VcT.placeholder" = "请输入您的验证码";
+
+/* Class = "UIButton"; normalTitle = "确 认"; ObjectID = "xGZ-zn-Njs"; */
+"xGZ-zn-Njs.normalTitle" = "确 认";

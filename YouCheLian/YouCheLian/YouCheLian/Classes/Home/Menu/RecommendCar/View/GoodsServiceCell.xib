@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GoodsServiceCell" rowHeight="50" id="KGk-i7-Jjw" customClass="GoodsServiceCell">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB2-pK-wqz">
+                        <rect key="frame" x="10" y="15" width="65" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5jx-Cb-ABw"/>
+                            <constraint firstAttribute="width" constant="65" id="Rwu-Ah-V9l"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="正品保障" image="service_zheng">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpd-J1-MZ7">
+                        <rect key="frame" x="80" y="15" width="65" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="psz-ht-KOH"/>
+                            <constraint firstAttribute="width" constant="65" id="wO2-xF-uya"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="售后保障" image="service_bao">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVV-dT-web">
+                        <rect key="frame" x="150" y="15" width="65" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="65" id="CEw-3o-DwQ"/>
+                            <constraint firstAttribute="height" constant="20" id="dAJ-ue-JDE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="极速退款" image="service_jisu">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rec_front" translatesAutoresizingMaskIntoConstraints="NO" id="uu6-Cb-EIk">
+                        <rect key="frame" x="314" y="18.5" width="6" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="6" id="gMl-6b-Ipe"/>
+                            <constraint firstAttribute="height" constant="12" id="qAH-PV-gNN"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xpd-J1-MZ7" firstAttribute="leading" secondItem="pB2-pK-wqz" secondAttribute="trailing" constant="5" id="GSP-82-ed4"/>
+                    <constraint firstItem="OVV-dT-web" firstAttribute="leading" secondItem="Xpd-J1-MZ7" secondAttribute="trailing" constant="5" id="LWu-01-3Dr"/>
+                    <constraint firstItem="pB2-pK-wqz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="M76-Tp-rGN"/>
+                    <constraint firstAttribute="trailing" secondItem="uu6-Cb-EIk" secondAttribute="trailing" constant="15" id="VTe-tj-oRg"/>
+                    <constraint firstItem="OVV-dT-web" firstAttribute="centerY" secondItem="Xpd-J1-MZ7" secondAttribute="centerY" id="VpH-mc-Reg"/>
+                    <constraint firstItem="pB2-pK-wqz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="gdb-Jn-dGF"/>
+                    <constraint firstItem="Xpd-J1-MZ7" firstAttribute="centerY" secondItem="pB2-pK-wqz" secondAttribute="centerY" id="uOL-zz-6uC"/>
+                    <constraint firstItem="uu6-Cb-EIk" firstAttribute="centerY" secondItem="OVV-dT-web" secondAttribute="centerY" id="ykG-Cu-izt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="217.5" y="253"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="rec_front" width="7" height="13"/>
+        <image name="service_bao" width="20" height="20"/>
+        <image name="service_jisu" width="20" height="20"/>
+        <image name="service_zheng" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OverdueCell" rowHeight="167" id="VTM-pM-52M" customClass="OverdueCell">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VTM-pM-52M" id="3LZ-bY-1H2">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="139.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rBr-Bt-fkB">
+                        <rect key="frame" x="0.0" y="138.5" width="394" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="MZa-Jd-Vxq"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="45T-EZ-OAu">
+                        <rect key="frame" x="20" y="20" width="354" height="100"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="TZr-8p-AnB"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rBr-Bt-fkB" secondAttribute="bottom" id="74k-FU-uZG"/>
+                    <constraint firstAttribute="trailing" secondItem="45T-EZ-OAu" secondAttribute="trailing" constant="20" id="94b-B7-Vrm"/>
+                    <constraint firstItem="45T-EZ-OAu" firstAttribute="leading" secondItem="3LZ-bY-1H2" secondAttribute="leading" constant="20" id="SL5-Nc-tb7"/>
+                    <constraint firstItem="rBr-Bt-fkB" firstAttribute="leading" secondItem="3LZ-bY-1H2" secondAttribute="leading" id="ah6-4o-Mbs"/>
+                    <constraint firstItem="45T-EZ-OAu" firstAttribute="top" secondItem="3LZ-bY-1H2" secondAttribute="top" constant="20" id="cwB-Rh-dzB"/>
+                    <constraint firstAttribute="trailing" secondItem="rBr-Bt-fkB" secondAttribute="trailing" id="fcT-XE-j9g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="imgView" destination="45T-EZ-OAu" id="vYP-uD-5KS"/>
+            </connections>
+            <point key="canvasLocation" x="259" y="283"/>
+        </tableViewCell>
+    </objects>
+</document>

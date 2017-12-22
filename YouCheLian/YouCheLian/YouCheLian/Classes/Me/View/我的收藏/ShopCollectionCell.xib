@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShopCollectionCell" rowHeight="142" id="usq-nb-3BM" customClass="ShopCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="usq-nb-3BM" id="koj-GA-0vQ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="154.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="EMf-Zw-hzf">
+                        <rect key="frame" x="16" y="16" width="123" height="122.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="EMf-Zw-hzf" secondAttribute="height" multiplier="145:144" id="bmV-u2-9Mu"/>
+                            <constraint firstAttribute="width" constant="133" id="lgi-KN-lae"/>
+                            <constraint firstAttribute="width" constant="145" id="o3R-zG-9Hq"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lgi-KN-lae"/>
+                                <exclude reference="o3R-zG-9Hq"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctc-ho-hME">
+                        <rect key="frame" x="155" y="19" width="80" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="12X-ST-plD"/>
+                            <constraint firstAttribute="width" constant="80" id="fcF-Fm-zn1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="商家名称" image="Search_shop">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广东省深圳市宝能科技园车行" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BrR-uU-hFV">
+                        <rect key="frame" x="155" y="41" width="210" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1c-L8-kGh">
+                        <rect key="frame" x="155" y="59.5" width="80" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="KJ8-R7-4Tu"/>
+                            <constraint firstAttribute="height" constant="20" id="Sfr-Bt-twI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="营业时间" image="Search_time">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAw-Zf-Qub">
+                        <rect key="frame" x="155" y="99" width="80" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="7hX-yM-4p0"/>
+                            <constraint firstAttribute="width" constant="80" id="Yfr-59-O4T"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="地址" image="Search_distance">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00 - 9:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vI-k7-xOc">
+                        <rect key="frame" x="155" y="80.5" width="70" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.16KM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="um4-tN-EOk">
+                        <rect key="frame" x="155" y="121" width="48.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cg4-r8-PAi">
+                        <rect key="frame" x="0.0" y="153.5" width="375" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="cb0-Px-ZH8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="um4-tN-EOk" firstAttribute="top" secondItem="lAw-Zf-Qub" secondAttribute="bottom" constant="2" id="1pN-UH-pK0"/>
+                    <constraint firstItem="ctc-ho-hME" firstAttribute="leading" secondItem="EMf-Zw-hzf" secondAttribute="trailing" constant="16" id="49H-im-duK"/>
+                    <constraint firstItem="lAw-Zf-Qub" firstAttribute="leading" secondItem="ctc-ho-hME" secondAttribute="leading" id="I4H-M8-2aR"/>
+                    <constraint firstItem="lAw-Zf-Qub" firstAttribute="top" secondItem="O1c-L8-kGh" secondAttribute="bottom" constant="5" id="UcV-Eu-9ov"/>
+                    <constraint firstAttribute="trailing" secondItem="Cg4-r8-PAi" secondAttribute="trailing" id="ZbB-f1-t6t"/>
+                    <constraint firstItem="O1c-L8-kGh" firstAttribute="leading" secondItem="ctc-ho-hME" secondAttribute="leading" id="bGn-OC-McW"/>
+                    <constraint firstAttribute="bottom" secondItem="EMf-Zw-hzf" secondAttribute="bottom" constant="16" id="dGB-Xi-CKX"/>
+                    <constraint firstItem="um4-tN-EOk" firstAttribute="bottom" secondItem="EMf-Zw-hzf" secondAttribute="bottom" id="eH7-2i-XSg"/>
+                    <constraint firstItem="Cg4-r8-PAi" firstAttribute="leading" secondItem="koj-GA-0vQ" secondAttribute="leading" id="eTB-D9-QcW"/>
+                    <constraint firstItem="ctc-ho-hME" firstAttribute="top" secondItem="EMf-Zw-hzf" secondAttribute="top" constant="3" id="g1j-al-c3C"/>
+                    <constraint firstItem="O1c-L8-kGh" firstAttribute="centerY" secondItem="EMf-Zw-hzf" secondAttribute="centerY" constant="-8" id="huH-xX-SKj"/>
+                    <constraint firstItem="BrR-uU-hFV" firstAttribute="top" secondItem="ctc-ho-hME" secondAttribute="bottom" constant="2" id="mJI-vV-n7m"/>
+                    <constraint firstItem="BrR-uU-hFV" firstAttribute="leading" secondItem="ctc-ho-hME" secondAttribute="leading" id="okQ-wM-3qs"/>
+                    <constraint firstItem="EMf-Zw-hzf" firstAttribute="top" secondItem="koj-GA-0vQ" secondAttribute="top" constant="16" id="oo6-jV-uSk"/>
+                    <constraint firstItem="um4-tN-EOk" firstAttribute="leading" secondItem="ctc-ho-hME" secondAttribute="leading" id="pSF-Jf-zSU"/>
+                    <constraint firstItem="EMf-Zw-hzf" firstAttribute="leading" secondItem="koj-GA-0vQ" secondAttribute="leading" constant="16" id="pVN-dz-DiS"/>
+                    <constraint firstItem="2vI-k7-xOc" firstAttribute="leading" secondItem="ctc-ho-hME" secondAttribute="leading" id="qNV-xJ-IGB"/>
+                    <constraint firstAttribute="trailing" secondItem="BrR-uU-hFV" secondAttribute="trailing" constant="10" id="wG2-CR-J3g"/>
+                    <constraint firstItem="2vI-k7-xOc" firstAttribute="centerY" secondItem="EMf-Zw-hzf" secondAttribute="centerY" constant="11" id="waX-nJ-TEG"/>
+                    <constraint firstAttribute="bottom" secondItem="Cg4-r8-PAi" secondAttribute="bottom" id="zJf-oo-qpf"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="UcV-Eu-9ov"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distance" destination="um4-tN-EOk" id="UcH-Ro-sh8"/>
+                <outlet property="iconView" destination="EMf-Zw-hzf" id="kJb-el-zaF"/>
+                <outlet property="merchNameLabel" destination="BrR-uU-hFV" id="LZP-w3-jIe"/>
+                <outlet property="workTimeLabel" destination="2vI-k7-xOc" id="Eec-mP-1vw"/>
+            </connections>
+            <point key="canvasLocation" x="257.5" y="269.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Search_distance" width="20" height="20"/>
+        <image name="Search_shop" width="20" height="20"/>
+        <image name="Search_time" width="20" height="20"/>
+        <image name="image_placeholder" width="140" height="117"/>
+    </resources>
+</document>

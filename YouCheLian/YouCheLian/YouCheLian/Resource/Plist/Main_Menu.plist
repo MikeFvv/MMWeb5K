@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>enble</key>
+		<true/>
+		<key>icon</key>
+		<string>activity_icon</string>
+		<key>name</key>
+		<string>优惠活动</string>
+	</dict>
+	<dict>
+		<key>enble</key>
+		<true/>
+		<key>icon</key>
+		<string>home_ershouche</string>
+		<key>name</key>
+		<string>二手车</string>
+	</dict>
+	<dict>
+		<key>enble</key>
+		<true/>
+		<key>icon</key>
+		<string>intelligence_icon</string>
+		<key>name</key>
+		<string>智能车联</string>
+	</dict>
+	<dict>
+		<key>enble</key>
+		<false/>
+		<key>icon</key>
+		<string>sale_icon</string>
+		<key>name</key>
+		<string>团购</string>
+	</dict>
+</array>
+</plist>

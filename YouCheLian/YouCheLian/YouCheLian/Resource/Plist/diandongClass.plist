@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ID</key>
+		<string>10016</string>
+		<key>name</key>
+		<string>电动摩托车</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>10017</string>
+		<key>name</key>
+		<string>电动踏板车</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>10018</string>
+		<key>name</key>
+		<string>电动自行车</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>10019</string>
+		<key>name</key>
+		<string>老年代步车</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>10020</string>
+		<key>name</key>
+		<string>迷你电工车</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>10021</string>
+		<key>name</key>
+		<string>其它</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9887EE84-3E8A-4E7C-95F0-82AB8F839342</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YouCheLian</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099</key>
+		<string>https://192.168.6.188:8443/svn/YhoIos/YCL</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YouCheLian/YouCheLian.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099</key>
+		<string>https://192.168.6.188:8443/svn/YhoIos</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.6.188:8443/svn/YhoIos/YCL/YouCheLian/YouCheLian.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E4%BC%98%E8%BD%A6%E8%81%94Code</string>
+		</dict>
+	</array>
+</dict>
+</plist>

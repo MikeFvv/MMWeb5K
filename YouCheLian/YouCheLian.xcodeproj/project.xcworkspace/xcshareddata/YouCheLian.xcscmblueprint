@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "517C3968-A298-49A8-BD73-542903C67E70",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099" : "%E4%BC%98%E8%BD%A6%E8%81%94Code\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YouCheLian",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YouCheLian\/YouCheLian.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.6.188:8443\/svn\/YhoIos",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "559e7a65-dcc4-ce46-8b9d-42f572d0dc6a++7099"
+    }
+  ]
+}
